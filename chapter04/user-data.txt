@@ -2,5 +2,5 @@
 yum -y update 
 yum -y install httpd php
 chkconfig httpd on
-wget https://s3.amazonaws.com/aws-certified-solution-architect-associate-guide/resiliency/index.php -O /var/www/html/
+wget https://s3.amazonaws.com/aws-certified-solution-architect-associate-guide/resiliency/index.php -O /var/www/html/index.php
 service httpd start
